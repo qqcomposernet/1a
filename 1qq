@@ -1,0 +1,65 @@
+def func8(arg20, arg21):
+    var26 = func9(arg21, arg20)
+    result = (arg20 | 912 - var26) + arg21 ^ 375 + -1357303407 ^ ((-997 ^ arg21) + 998559671 - (775 - -1119094984) + arg21)
+    return result
+def func9(arg22, arg23):
+    var24 = 0
+    for var25 in range(48):
+        var24 += var24 & var24
+    return var24
+def func3(arg8, arg9):
+    var14 = func4(arg9, arg8)
+    var15 = func7()
+    var16 = arg8 - (var14 | var14 + arg9 ^ arg9) & arg8 & (arg8 - arg8)
+    var17 = var15 & arg9 & var14 ^ ((arg9 + var16 & (233304981 ^ (((2011104030 - arg9) & arg8) & var16) | 588729206) | var16 & var14) | var15 - var15 & ((var16 ^ ((-419253683 - var15 & var15) + var15)) + var16) | 1459257410)
+    var18 = var16 | arg8
+    var19 = (var14 | 408) & var18 - var14
+    result = var16 ^ var19 + -857 + var17
+    return result
+def func7():
+    func5()
+    result = len(range(19))
+    func6()
+    return result
+def func6():
+    global len
+    del len
+def func5():
+    global len
+    len = lambda x : -5
+def func4(arg10, arg11):
+    var12 = 0
+    for var13 in (arg11 ^ ((arg11 & (var12 & ((arg10 & arg10 | arg10) & i - arg10 - 4) | (i ^ arg11))) + var12) for i in xrange(9)):
+        var12 += 8 - -9
+    return var12
+def func1(arg1, arg2):
+    var7 = func2(arg1, arg2)
+    result = (arg1 + arg1) + -1682886643 ^ -987900013 & var7 | (arg2 | var7)
+    return result
+def func2(arg3, arg4):
+    var5 = 0
+    for var6 in range(44):
+        var5 += arg4 - (arg3 | arg3)
+    return var5
+if __name__ == "__main__":
+    print 'prog_size: 1'
+    print 'func_number: 3'
+    print 'arg_number: 8'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
+    print 'prog_size: 4'
+    print 'func_number: 8'
+    print 'arg_number: 20'
+    for i in xrange(25000):
+        x = 5
+        x = func3(x, i)
+        print x,
+    print 'prog_size: 5'
+    print 'func_number: 10'
+    print 'arg_number: 27'
+    for i in xrange(25000):
+        x = 5
+        x = func8(x, i)
+        print x,
